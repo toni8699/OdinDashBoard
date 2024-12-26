@@ -1,0 +1,91 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20% 80%;
+    gap: 10px;
+    height: 100vh;
+
+
+}
+
+.grid-container > div{
+    border: black 1px solid;
+}
+
+.sidebar{
+    grid-row: 1 / span 8;
+    grid-column: 1 / span 1;
+    background-color: #38bdf8;
+    display: grid;
+    grid-template-rows: 20% 40% 40%;
+
+}
+.sidebar > div{
+    border: black 1px solid;
+}
+ul{
+    list-style-type: none;
+}
+.header{
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 7;
+}
+.content{
+    grid-row: 2 / span 7;
+    grid-column: 2 / span 7; 
+    display: grid;
+    gap: 10px;
+    background-color: #e2e8f0;
+}
+
+.content > div{
+    border: black 1px solid;
+}
+.content{
+    height:100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 10% 80% 10%;
+    overflow: hidden;
+}
+.your-projects{
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 2;
+}
+.announcements{
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+}
+.bottom{
+    grid-row: 3 / span 1;
+    grid-column: 1 / span 2;
+}
+.left{
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    display:grid;
+    grid-template-columns: minmax(auto, 1fr) minmax(auto, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;;
+    grid-gap:20px ;
+}
+.project{
+    background-color: white;
+}
+
+.left > div{
+    border: black 1px solid;
+}
+.right{
+    grid-row: 2 / span 5;
+    grid-column: 2 / span 1;
+}
+
+.right{
+    display: grid;
+    grid-template-rows:50% 50%;
+    gap: 10px;
+}
+.right >div{
+    border: black 1px solid;
+}   
+
