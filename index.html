@@ -10,70 +10,177 @@
     <div class="grid-container">
         <div class="sidebar">
             <div class="logo">
-                <h1>Dashboard</h1>
+                <div>
+                    <img src="assets/microsoft-windows.svg" alt="logo">
+                    <h1>Dashboard</h1>
+                </div>
+               
             </div>
-            <div>
+            <div class ="sidebar-menu">
                 <ul>
-                    <li>Home</li>
-                    <li>Profile</li>
-                    <li>Messages</li>
-                    <li>History</li>
-                    <li>Tasks</li>
-                    <li>Communities</li>
+                    <li><img src=" assets/home.svg" alt="home">Home</li>
+                    <li><img src="assets/account.svg" alt="profile">Profile</li>
+                    <li> <img src="assets/message.svg" alt="messages"> Messages</li>
+                    <li> <img src="assets/history.svg" alt="history">History</li>
+                    <li><img src="assets/calendar-check.svg" alt="tasks"> Tasks</li>
+                    <li> <img src="assets/account-group.svg" alt="">Communities</li>
                 </ul>
             </div>
-            <div>
+            <div class="sidebar-menu">
                 <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
+                    <li><img src="assets/cog-outline.svg" alt="settings">  Settings</li>
+                    <li><img src="assets/face-agent.svg" alt="support">Support</li>
+                    <li><img src="assets/shield-account.svg" alt="privacy">Privacy</li>
                 </ul>
             </div>
         </div>
         <div class="header">
-            <div class="search">
+            <div style="display: flex;" class="search">
+                <img style="width: 1rem ; height: 1rem;" src ='assets/magnify.svg' alt="search">
                 <input type="text" placeholder="Search">
             </div>
             <div class="notifications">
-                <img src="bell.png" alt="bell">
-                <img src="message.png" alt="message">
-                <img src="person.png" alt="person">
-        </div>
+                <img style="width: 1rem ; height: 1rem;" src="assets/bell-ring-outline.svg" alt="bell">
+                <img  src="assets/images.jpeg" alt="message">
+                <h4>John Doe</h4>
+            </div>
+            <div class ='greeting'> 
+                <img class="avatar" src="assets/images.jpeg" alt="profile">
+                <div class="greeting-text">
+                    <h3>Hi There</h3>
+                    <h2>John Doe (@johndoe)</h2>
+                </div>
+            </div>
+            <div class="more-button">
+                <button> New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+
         
+     
         </div>
         <div class="content">
 
             <h3 class="your-projects">Your Projects</h3>
+            <h3 class =announcements>  Announcements
+        </h3>
             <div class="left">
                 <div class="project"> 
                     <h4>Super Awesome Project</h4>
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a>Star </a>
-                    <a>Watch</a>
-                    <a>Fork</a>
+                    <div class="project-actions">
+                        <a href="#" ><img src="assets/account-group.svg" alt="eye"> </a>
+                        <a href="#"><img src="assets/star-plus-outline.svg" alt=""></a>
+                        <a href="#"><img src="assets/source-fork.svg" alt=""></a>
+                    </div>
+
+                   
                 </div>
-                <div class="project" >Project B</div>
-                <div class="project">Project C</div>
-                <div class = "project">Project D</div>
-                <div class="project">Project E</div>
-                <div class="project">Project F</div>
+                <div class="project"> 
+                    <h4>Super Awesome Project</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="project-actions">
+                        <a href="#" ><img src="assets/account-group.svg" alt="eye"> </a>
+                        <a href="#"><img src="assets/star-plus-outline.svg" alt=""></a>
+                        <a href="#"><img src="assets/source-fork.svg" alt=""></a>
+                    </div>
+
+                   
+                </div>
+                <div class="project"> 
+                    <h4>Super Awesome Project</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="project-actions">
+                        <a href="#" ><img src="assets/account-group.svg" alt="eye"> </a>
+                        <a href="#"><img src="assets/star-plus-outline.svg" alt=""></a>
+                        <a href="#"><img src="assets/source-fork.svg" alt=""></a>
+                    </div>
+
+                   
+                </div>
+                <div class="project"> 
+                    <h4>Super Awesome Project</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="project-actions">
+                        <a href="#" ><img src="assets/account-group.svg" alt="eye"> </a>
+                        <a href="#"><img src="assets/star-plus-outline.svg" alt=""></a>
+                        <a href="#"><img src="assets/source-fork.svg" alt=""></a>
+                    </div>
+
+                   
+                </div>
+                <div class="project"> 
+                    <h4>Super Awesome Project</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="project-actions">
+                        <a href="#" ><img src="assets/account-group.svg" alt="eye"> </a>
+                        <a href="#"><img src="assets/star-plus-outline.svg" alt=""></a>
+                        <a href="#"><img src="assets/source-fork.svg" alt=""></a>
+                    </div>
+
+                   
+                </div>
+                <div class="project"> 
+                    <h4>Super Awesome Project</h4>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="project-actions">
+                        <a href="#" ><img src="assets/account-group.svg" alt="eye"> </a>
+                        <a href="#"><img src="assets/star-plus-outline.svg" alt=""></a>
+                        <a href="#"><img src="assets/source-fork.svg" alt=""></a>
+                    </div>
+
+                   
+                </div>
+                
+                
+
             </div>
-            <h3 class="announcements">Announcements</h3>
 
             <div class="right">
-                <div>   
-                    <div> Site Maintenance
+                <div class ="site-announcements">   
+                    <div> 
+                        <h4>Site Maintenance</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-                    <div>Community Share Day
+                    <div>
+                        <h4>Community Share Day</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
-                    <div>Updated Privacy Policy
+                    <div>
+                        <h4>Updated Privacy Policy</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                 </div>
-                <div>
-                    <h3>Trending</h3>
+                <div class ="trending">
+                    <div>
+                        <h3>Trending</h3>
+                    </div>
+                    <div class="trending-list">
+                        <ul>
+                            <li>
+                                <div class ="trending-profile" >
+                                    <img src="assets/images.jpeg" alt="profile">
+                                    <div>
+                                        <h4>@johndoe</h4>
+                                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class ="trending-profile" >
+                                    <img src="assets/cat1.webp" alt="profile">
+                                    <div>
+                                        <h4>@johndoe</h4>
+                                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </li>
+                
+                
+
+                        </ul>
+                    </div>
                 </div>
             </div>
             <h3 class="bottom">Bottom</h3>
